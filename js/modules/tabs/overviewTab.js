@@ -39,6 +39,9 @@ export function renderOverviewTab() {
         context => {
             const label = context.label || '';
             const value = context.raw || 0;
+            
+            // For the participation chart, we don't need to show companies
+            // since one segment is the count of companies
             return `${label}: ${value}`;
         }
     );
@@ -65,7 +68,29 @@ export function renderOverviewTab() {
         context => {
             const label = context.label || '';
             const value = context.raw || 0;
-            return `${label}: ${value} companies`;
+            
+            // Get companies with this status
+            const companiesWithStatus = surveyData.filter(item => item.Status === label)
+                .map(item => item.Company)
+                .filter(Boolean);
+            
+            // Create tooltip with company names
+            const tooltipLines = [
+                `${label}: ${value} companies`
+            ];
+            
+            // Add company names (limited to 10 to avoid overwhelming tooltips)
+            const displayCompanies = companiesWithStatus.slice(0, 10);
+            displayCompanies.forEach(company => {
+                tooltipLines.push(`- ${company}`);
+            });
+            
+            // Add indicator if there are more companies
+            if (companiesWithStatus.length > 10) {
+                tooltipLines.push(`... and ${companiesWithStatus.length - 10} more`);
+            }
+            
+            return tooltipLines;
         }
     );
 }

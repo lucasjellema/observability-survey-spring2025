@@ -37,7 +37,24 @@ export function renderDimensionsTab() {
             const label = context.label || '';
             const value = context.raw || 0;
             const companies = getCompaniesWithItem(surveyData, 'observabilityDimensions', label);
-            return `${label}: ${value} companies (${Math.round(value / surveyData.length * 100)}%)`;
+            
+            // Create tooltip with company names
+            const tooltipLines = [
+                `${label}: ${value} companies (${Math.round(value / surveyData.length * 100)}%)`
+            ];
+            
+            // Add company names (limited to 10 to avoid overwhelming tooltips)
+            const displayCompanies = companies.slice(0, 10);
+            displayCompanies.forEach(company => {
+                tooltipLines.push(`- ${company}`);
+            });
+            
+            // Add indicator if there are more companies
+            if (companies.length > 10) {
+                tooltipLines.push(`... and ${companies.length - 10} more`);
+            }
+            
+            return tooltipLines;
         }
     );
     
