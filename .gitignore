@@ -56,4 +56,5 @@ tmp/
 temp/
 
 # Internal documentation
-.internal-readme.md
+
+internal-readme.md
