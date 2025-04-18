@@ -1,0 +1,163 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    font-weight: 600;
+}
+
+.nav-tabs .nav-link {
+    color: #495057;
+    font-weight: 500;
+}
+
+.nav-tabs .nav-link.active {
+    color: #0d6efd;
+    font-weight: 600;
+}
+
+.company-badge {
+    display: inline-block;
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 0.5rem 1rem;
+    margin: 0.25rem;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.company-badge:hover {
+    background-color: #0d6efd;
+    color: white;
+    cursor: pointer;
+}
+
+.challenge-item {
+    border-left: 4px solid #0d6efd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 0 4px 4px 0;
+}
+
+.challenge-company {
+    font-weight: 600;
+    color: #0d6efd;
+}
+
+.challenge-text {
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+select.form-control {
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    padding: 0.5rem;
+}
+
+footer {
+    border-top: 1px solid #dee2e6;
+}
+
+/* Company profile styling */
+.company-profile {
+    margin-top: 1rem;
+}
+
+/* Product usage legend styling */
+.product-usage-legend {
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    margin-bottom: 15px;
+}
+
+.legend-color {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+/* Roadmap & Strategy tab styling */
+#roadmapList .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#roadmapList .card-header .badge {
+    font-size: 0.8rem;
+}
+
+#roadmapList .card {
+    border-left: 4px solid #0d6efd;
+    transition: transform 0.2s;
+}
+
+#roadmapList .card:hover {
+    transform: translateX(5px);
+}
+
+.company-profile .card-header {
+    font-weight: 600;
+}
+
+.company-profile .card-header.bg-primary {
+    color: white;
+}
+
+.company-profile .list-group-item {
+    transition: background-color 0.2s ease;
+}
+
+.company-profile .list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.company-profile h6 {
+    margin-top: 1rem;
+    font-weight: 600;
+    color: #495057;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .nav-tabs {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .nav-tabs .nav-link {
+        white-space: nowrap;
+    }
+}
