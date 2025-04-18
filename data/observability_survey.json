@@ -1,0 +1,1876 @@
+[
+  {
+    "Id": "9",
+    "StartTime": "21-3-2025 16:08",
+    "CompletionTime": "21-3-2025 16:15",
+    "Email": "anonymous",
+    "Name": "Pat King",
+    "Language": "English (United States)?",
+    "Company": "Vortex Computing",
+    "Status": "Propositie (Observability als product/dienst aangeboden aan klanten)",
+    "Proposition": "Voor ons is een deel hiervan onderdeel van onze SLA, zodat we op een goede en gedegen manier pro-actieve monitoring op onze web applicaties kunnen toepassen.",
+    "RoadmapStrategy": "Omdat we dit al toepassen zijn de toekomstplannen met name gericht op het verbeteren van dit proces en het verbeteren van inzichten. Met name door de grote hoeveelheid projecten en klanten en de diversiteit in technologie zijn zullen we voor de middellange termijn (verwacht ik op dit moment) op zoek gaan naar een verbeterde centrale omgeving waarbij we ook meer ruimte kunnen krijgen in het tonen van specifieke metrics op het vlak van performance maar ook bijvoorbeeld SEO aspecten",
+    "sourceOfTelemetry": [
+      "SaaS / Standaard business applicatie"
+    ],
+    "challengesConcernsAspirations": [],
+    "otherProducts": "SentryLog is op dit moment ook in verkenning",
+    "typesOfTelemetry": [
+      "Logging",
+      "Metrics",
+      "Traces"
+    ],
+    "observabilityDimensions": [
+      "Performance",
+      "ExceptionsErrors",
+      "BusinessFunctioneel"
+    ],
+    "automaticProcessing": [
+      "Alerts/Alarmsignalen naar engineers"
+    ],
+    "facets": [
+      "Best practices / Standaard aanpak",
+      "Standaarden/ Richtlijnen (en QA controls)"
+    ],
+    "applicable": [
+      "Healthchecks / HealthProbes"
+    ],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "NetMonitor",
+        "time": "Vroeger"
+      },
+      {
+        "product": "CloudWatch Pro",
+        "time": "Nu"
+      },
+      {
+        "product": "InsightMonitor",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "MetricVision",
+        "time": "Vroeger"
+      }
+    ]
+  },
+  {
+    "Id": "21",
+    "StartTime": "7-4-2025 14:24",
+    "CompletionTime": "7-4-2025 14:46",
+    "Email": "anonymous",
+    "Name": "Rowan Adams",
+    "Language": "English (United States)?",
+    "Company": "Luminary Tech",
+    "Status": "Cruciaal, zichtbaar onderdeel van propositie",
+    "Proposition": "Het is geen dienst op zich, maar onderdeel van onze oplossingen. In de AMIS bedrijfspresentatie staat het volgende prominent zichtbaar in de slide waarin staat waar AMIS in geloofd: ACTIEGERICHT met:\nAnomaly detection, Actieve alerting,\nAutomated response, Multi-bron views",
+    "RoadmapStrategy": "Het is onderdeel van de diverse AMIS referentie architectuur oplossingen, waar we iteratief verbeteringen in doorvoeren. Daarnaast zijn we een Plaform DevOps team aan het opzetten, waar het verbeteren van zaken zoals automated response en actieve alerting onderdeel van de team werkwijze is.",
+    "sourceOfTelemetry": [
+      "Applicatie (backend en frontend van maatwerk business applicaties)",
+      "Platform (zoals API Gateway, Database, ESB, Message Broker, Web Server, IAM, workflow, Low Code runtime platform)",
+      "Infrastructure (Cloud en/of On Prem)",
+      "CI/CD, Pipelines, Provisioning tools",
+      "Development Environment / IDP (IT4IT)",
+      "Edge / IoT"
+    ],
+    "challengesConcernsAspirations": [],
+    "otherProducts": "Oracle Cloud Infrastructure Monitoring service",
+    "typesOfTelemetry": [
+      "Logging",
+      "Metrics",
+      "Events (things happening to and around the monitoring systems)"
+    ],
+    "observabilityDimensions": [
+      "BusinessFunctioneel",
+      "Performance",
+      "ExceptionsErrors",
+      "ComplianceRiskControl",
+      "Security",
+      "FinancialCostConsumption"
+    ],
+    "automaticProcessing": [
+      "Alerts/Alarmsignalen naar engineers"
+    ],
+    "facets": [
+      "Referentie Architectuur",
+      "Standaarden/ Richtlijnen (en QA controls)",
+      "Architecture Decision Records"
+    ],
+    "applicable": [
+      "QA /Compliance"
+    ],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "PerformPro",
+        "time": "Optie"
+      },
+      {
+        "product": "FlexObserve",
+        "time": "Nu"
+      },
+      {
+        "product": "CloudWatch Pro",
+        "time": "Nu"
+      },
+      {
+        "product": "CloudTracker",
+        "time": "Nu"
+      }
+    ]
+  },
+  {
+    "Id": "5",
+    "StartTime": "18-3-2025 17:04",
+    "CompletionTime": "18-3-2025 17:15",
+    "Email": "anonymous",
+    "Name": "Pat King",
+    "Language": "English (United States)?",
+    "Company": "Synergy Solutions",
+    "Status": "De wens is er, de uitvoering matig.",
+    "Proposition": "Geen, onderdeel van een SLA, maar gaat niet verder dan een uptime monitor of iets plat ligt - heel af en toe healthchecks in applicaties inbouwen. We zijn daarnaast met onderhoudscontracten bezig om actief onderhoud op applicaties te kunnen plegen en bijv. zaken als performance en fouten op te lossen, zonder vooraf akkoord van een klant. Dit is naast een SLA die vaak gaan over beschikbaarheid van resources bij problemen",
+    "RoadmapStrategy": "Ik ben al tijdje bezig om langzamerhand SRE methodieken te implementeren in de organisatie, centrale logging en dus kunnen herkennen van situaties valt daar onder. Dat wil ik lopende dit jaar steeds verder gaan doorvoeren.",
+    "sourceOfTelemetry": [
+      "Applicatie (backend en frontend van maatwerk business applicaties)"
+    ],
+    "challengesConcernsAspirations": [
+      "Vooral dat het consequent gemplementeerd wordt en dat er ook daadwerkelijk opvolging gegeven wordt. Nu bestaat het gevaar dat er een bak data ontstaat waar nooit iemand naar kijkt, totdat een klant escaleert."
+    ],
+    "otherProducts": "Detectify (OWASP), ContentKing (SEO), Uptime Kuma (Uptime monitoring)",
+    "typesOfTelemetry": [
+      "Logging",
+      "Traces",
+      "Uptime"
+    ],
+    "observabilityDimensions": [
+      "Performance",
+      "ExceptionsErrors",
+      "SecuritytijdensdeontwikkefaseegdeinzetvanDetectifyOokSEOmetgebruikvanContentkingdoorhetontbrekenvanonderhoudscontractenkunnenweechteraltijdwatmetdezeinformatie"
+    ],
+    "automaticProcessing": [
+      "Uptime notificaties in Teams"
+    ],
+    "facets": [
+      "Standaarden/ Richtlijnen (en QA controls)",
+      "Best practices / Standaard aanpak"
+    ],
+    "applicable": [
+      "Open Telemetry",
+      "Healthchecks / HealthProbes"
+    ],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "CloudWatch Pro",
+        "time": "Nu"
+      },
+      {
+        "product": "VisualMetrics",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "MetricSentry",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "MetricVision",
+        "time": "Vroeger"
+      },
+      {
+        "product": "DataObserver",
+        "time": "Optie"
+      }
+    ]
+  },
+  {
+    "Id": "18",
+    "StartTime": "4-4-2025 11:18",
+    "CompletionTime": "4-4-2025 11:24",
+    "Email": "anonymous",
+    "Name": "Reese Jackson",
+    "Language": "English (United States)?",
+    "Company": "Meridian Software",
+    "Status": "Interne activiteit - van belang in uitvoering van/rapportage over dienstverlening",
+    "Proposition": "Omdat we bij Meridian Software focussen op de front-end en qua back-end (infra) leunen op SaaS oplossingen beperkt de observability zich eigenlijk tot signalering van prestaties van de SaaS diensten. Onze rol is vooral de notificatie en communicatie rondom de performance van de SaaS diensten (denk aan Vercel, Heroku, HubSpot, Prepr CMS, etc).\nWe richten wel logging in waar mogelijk, zodat we bij problemen reactief kunnen optreden.",
+    "RoadmapStrategy": "Vooralsnog voorzien we geen verandering in deze strategie.",
+    "sourceOfTelemetry": [
+      "SaaS / Standaard business applicatie",
+      "Applicatie (backend en frontend van maatwerk business applicaties)",
+      "Platform (zoals API Gateway, Database, ESB, Message Broker, Web Server, IAM, workflow, Low Code runtime platform)",
+      "Infrastructure (Cloud en/of On Prem)",
+      "CI/CD, Pipelines, Provisioning tools"
+    ],
+    "challengesConcernsAspirations": [
+      "Door groei van aantal klanten en vragen van specifieke klanten zijn we wel aan het kijken hoe we de situatie voor ons beheersbaar kunnen houden. We hebben geen ambitie om buiten kantoortijden beschikbaar te zijn, maar daar wordt vanuit klanten wel naar gevraagd. En door groei in klanten moet er meer tijd vrijgemaakt worden voor (reactie op) monitoring notificaties."
+    ],
+    "otherProducts": "Checkly",
+    "typesOfTelemetry": [
+      "Logging",
+      "Events (things happening to and around the monitoring systems)"
+    ],
+    "observabilityDimensions": [
+      "BusinessFunctioneel",
+      "Performance",
+      "ExceptionsErrors"
+    ],
+    "automaticProcessing": [
+      "Alerts/Alarmsignalen naar engineers",
+      "Automatische mitigatie/reactie op monitoring-bevindingen"
+    ],
+    "facets": [
+      "Best practices / Standaard aanpak",
+      "Custom en Reusable Integraties / Dashboards / Rapportages / Beheer-scripts"
+    ],
+    "applicable": [
+      "QA /Compliance",
+      "Open Telemetry"
+    ],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "FlexObserve",
+        "time": "Optie"
+      },
+      {
+        "product": "CloudWatch Pro",
+        "time": "Optie"
+      },
+      {
+        "product": "DataObserver",
+        "time": "Nu"
+      }
+    ]
+  },
+  {
+    "Id": "20",
+    "StartTime": "6-4-2025 21:01",
+    "CompletionTime": "6-4-2025 21:10",
+    "Email": "anonymous",
+    "Name": "Taylor Smith",
+    "Language": "English (United States)?",
+    "Company": "Odyssey Tech",
+    "Status": "Heeft weinig aandacht nog bij ons ivm weinig bedrijfskritische applicaties die wij beheren.",
+    "Proposition": "Geen",
+    "RoadmapStrategy": "Ik wil onze observability we verbeteren in 2025. Met name ook voor intern meer zicht en grip te krijgen op ons applicatielandschap. En daarnaast om iets pro-actiever nog naar onze klanten te kunnen zijn bij incidenten.",
+    "sourceOfTelemetry": [
+      "Applicatie (backend en frontend van maatwerk business applicaties)",
+      "Infrastructure (Cloud en/of On Prem)",
+      "CI/CD, Pipelines, Provisioning tools"
+    ],
+    "challengesConcernsAspirations": [
+      "Vooral Intern. Grootste uitdaging is gebrek aan capaciteit hiervoor bij onze developers. En de lage prio/noodzaak.\nVerdere stappen zijn uberhaupt meer gaan monitoren van onze applicaties middels maatwerk Dashboard. En aanvullend waarschijnlijk security training voor meer kennis bij het team om mogelijk ook observability op dat vlak te verbeteren."
+    ],
+    "otherProducts": "",
+    "typesOfTelemetry": [
+      "Logging"
+    ],
+    "observabilityDimensions": [
+      "BusinessFunctioneel",
+      "Performance",
+      "ExceptionsErrors"
+    ],
+    "automaticProcessing": [
+      "Alerts/Alarmsignalen naar engineers"
+    ],
+    "facets": [
+      "Best practices / Standaard aanpak",
+      "Custom en Reusable Integraties / Dashboards / Rapportages / Beheer-scripts"
+    ],
+    "applicable": [],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "NetMonitor",
+        "time": "Vroeger"
+      },
+      {
+        "product": "MetricVision",
+        "time": "Vroeger"
+      },
+      {
+        "product": "DataObserver",
+        "time": "In Verkenning"
+      }
+    ]
+  },
+  {
+    "Id": "1",
+    "StartTime": "18-3-2025 12:35",
+    "CompletionTime": "18-3-2025 12:44",
+    "Email": "anonymous",
+    "Name": "Morgan Davis",
+    "Language": "English (United Kingdom)?",
+    "Company": "Nebula Computing",
+    "Status": "Both a crucial explicit element in propositions as a proposition offered to customers",
+    "Proposition": "Chain and transaction monitoring over services provided by all suppliers of the customers.",
+    "RoadmapStrategy": "Enhance the proposition with AI analytics, auto remediation and support for a wider suite of data sources",
+    "sourceOfTelemetry": [
+      "SaaS / Standaard business applicatie",
+      "Applicatie (backend en frontend van maatwerk business applicaties)",
+      "Platform (zoals API Gateway, Database, ESB, Message Broker, Web Server, IAM, workflow, Low Code runtime platform)",
+      "Infrastructure (Cloud en/of On Prem)"
+    ],
+    "challengesConcernsAspirations": [
+      "Combining security logging remains a challenge due to privacy challenges."
+    ],
+    "otherProducts": "E.G. Monitoring for workspace services (AVD)\nPRTG for network services",
+    "typesOfTelemetry": [
+      "Logging",
+      "Metrics",
+      "Events (things happening to and around the monitoring systems)",
+      "Transaction output"
+    ],
+    "observabilityDimensions": [
+      "BusinessFunctioneel",
+      "Performance",
+      "ExceptionsErrors",
+      "ComplianceRiskControl",
+      "Security"
+    ],
+    "automaticProcessing": [
+      "Alerts/Alarmsignalen naar engineers",
+      "Automatische creatie van tickets/incidenten"
+    ],
+    "facets": [
+      "Referentie Architectuur",
+      "Best practices / Standaard aanpak",
+      "Custom en Reusable Integraties / Dashboards / Rapportages / Beheer-scripts",
+      "Trainingsmateriaal"
+    ],
+    "applicable": [
+      "Open Telemetry",
+      "SIEM",
+      "Healthchecks / HealthProbes",
+      "QA /Compliance"
+    ],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "FlexObserve",
+        "time": "Nu"
+      },
+      {
+        "product": "NetMonitor",
+        "time": "Nu"
+      },
+      {
+        "product": "LogStream",
+        "time": "Nu"
+      },
+      {
+        "product": "CloudWatch Pro",
+        "time": "Nu"
+      },
+      {
+        "product": "VisualMetrics",
+        "time": "Vroeger"
+      },
+      {
+        "product": "MetricSentry",
+        "time": "Nu"
+      },
+      {
+        "product": "InsightMonitor",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "SkyMonitor",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "DataObserver",
+        "time": "Nu"
+      }
+    ]
+  },
+  {
+    "Id": "16",
+    "StartTime": "4-4-2025 10:01",
+    "CompletionTime": "4-4-2025 10:05",
+    "Email": "anonymous",
+    "Name": "Avery Miller",
+    "Language": "English (United States)?",
+    "Company": "TechNova Solutions",
+    "Status": "Cruciaal, zichtbaar onderdeel van propositie",
+    "Proposition": "Functionele monitoring en dashboards om klanten inzicht te geven in de werking van integraties. Is een standaard component in de dienstverlening.",
+    "RoadmapStrategy": "Geen nieuwe plannen",
+    "sourceOfTelemetry": [
+      "Platform (zoals API Gateway, Database, ESB, Message Broker, Web Server, IAM, workflow, Low Code runtime platform)"
+    ],
+    "challengesConcernsAspirations": [
+      "Wij willen doorontwikkelen in de richting van security dashboard met name rondom AVG complaince"
+    ],
+    "otherProducts": "",
+    "typesOfTelemetry": [
+      "Logging",
+      "Metrics",
+      "Events (things happening to and around the monitoring systems)"
+    ],
+    "observabilityDimensions": [
+      "BusinessFunctioneel",
+      "Performance",
+      "ExceptionsErrors",
+      "ComplianceRiskControl",
+      "Security"
+    ],
+    "automaticProcessing": [
+      "Alerts/Alarmsignalen naar engineers"
+    ],
+    "facets": [
+      "Best practices / Standaard aanpak",
+      "Standaarden/ Richtlijnen (en QA controls)",
+      "Custom en Reusable Integraties / Dashboards / Rapportages / Beheer-scripts"
+    ],
+    "applicable": [
+      "Healthchecks / HealthProbes"
+    ],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "PerformPro",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "FlexObserve",
+        "time": "Nu"
+      },
+      {
+        "product": "CloudWatch Pro",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "SystemSentry",
+        "time": "Optie"
+      },
+      {
+        "product": "VisualMetrics",
+        "time": "Nu"
+      },
+      {
+        "product": "MetricSentry",
+        "time": "Nu"
+      },
+      {
+        "product": "InsightMonitor",
+        "time": "Optie"
+      },
+      {
+        "product": "DataPulse",
+        "time": "Optie"
+      },
+      {
+        "product": "SkyMonitor",
+        "time": "Optie"
+      },
+      {
+        "product": "DataObserver",
+        "time": "Optie"
+      }
+    ]
+  },
+  {
+    "Id": "14",
+    "StartTime": "31-3-2025 15:02",
+    "CompletionTime": "31-3-2025 15:18",
+    "Email": "anonymous",
+    "Name": "Pat King",
+    "Language": "English (United States)?",
+    "Company": "Meridian Software",
+    "Status": "Propositie (Observability als product/dienst aangeboden aan klanten)",
+    "Proposition": "Observability maakt - naast \"Engage en Act\" - deel uit van een AI/ML gebaseerde propositie, die we op dit moment uitwerken onder de naam \"Intelligent Operations\" dan wel \"Autonomous Operations\".",
+    "RoadmapStrategy": "Ja, deze staat op dit moment op de roadmap voor 2025",
+    "sourceOfTelemetry": [
+      "Infrastructure (Cloud en/of On Prem)",
+      "Edge / IoT"
+    ],
+    "challengesConcernsAspirations": [
+      "Op dit moment hebben we nog niet helemaal helder in beeld, wat er in de markt geboden wordt op het gebied van Intelligent Operations van Industrile Infrastructuren. Voor het domein Telecom hebben we wel een aardig overzicht."
+    ],
+    "otherProducts": "We richten ons op maatwerk oplossingen op basis van MS Fabric en omliggende tools.",
+    "typesOfTelemetry": [
+      "Logging",
+      "Metrics",
+      "Events (things happening to and around the monitoring systems)",
+      "Profiles"
+    ],
+    "observabilityDimensions": [
+      "BusinessFunctioneel",
+      "Performance",
+      "ExceptionsErrors",
+      "Security",
+      "ESGenergyCO2water"
+    ],
+    "automaticProcessing": [
+      "Alerts/Alarmsignalen naar engineers",
+      "Automatische creatie van tickets/incidenten",
+      "Automatische mitigatie/reactie op monitoring-bevindingen",
+      "AI gebaseerde verwerking/reactie"
+    ],
+    "facets": [
+      "Best practices / Standaard aanpak",
+      "Referentie Architectuur"
+    ],
+    "applicable": [],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "FlexObserve",
+        "time": "Vroeger"
+      },
+      {
+        "product": "CloudWatch Pro",
+        "time": "Nu"
+      },
+      {
+        "product": "DataPulse",
+        "time": "Vroeger"
+      },
+      {
+        "product": "DataObserver",
+        "time": "Nu"
+      }
+    ]
+  },
+  {
+    "Id": "6",
+    "StartTime": "19-3-2025 13:43",
+    "CompletionTime": "19-3-2025 13:48",
+    "Email": "anonymous",
+    "Name": "Jesse Wright",
+    "Language": "English (United States)?",
+    "Company": "Synergy Solutions",
+    "Status": "Microsoft voert het uit en informeert ons bij situaties.",
+    "Proposition": "In het kader van onze managed services/ support dienstverlening Is technisch beheer en onderhoud van de applicatie een onderdeel. De werkzaamheden echter worden door Microsoft uitgevoerd omdat zij toegang hebben tot de backend op Azure.",
+    "RoadmapStrategy": "Continuering zoals tot op heden; geen aanpassingen.",
+    "sourceOfTelemetry": [
+      "SaaS / Standaard business applicatie",
+      "Applicatie (backend en frontend van maatwerk business applicaties)",
+      "Platform (zoals API Gateway, Database, ESB, Message Broker, Web Server, IAM, workflow, Low Code runtime platform)"
+    ],
+    "challengesConcernsAspirations": [],
+    "otherProducts": "",
+    "typesOfTelemetry": [
+      "Logging",
+      "Metrics",
+      "Traces",
+      "Events (things happening to and around the monitoring systems)"
+    ],
+    "observabilityDimensions": [
+      "BusinessFunctioneel",
+      "Performance",
+      "ExceptionsErrors",
+      "Security",
+      "FinancialCostConsumption",
+      "ComplianceRiskControl"
+    ],
+    "automaticProcessing": [
+      "Automatische creatie van tickets/incidenten",
+      "Alerts/Alarmsignalen naar engineers"
+    ],
+    "facets": [
+      "Best practices / Standaard aanpak"
+    ],
+    "applicable": [],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "PerformPro",
+        "time": "Optie"
+      },
+      {
+        "product": "CloudWatch Pro",
+        "time": "Nu"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "StartTime": "18-3-2025 13:07",
+    "CompletionTime": "18-3-2025 13:25",
+    "Email": "anonymous",
+    "Name": "Skyler Thomas",
+    "Language": "English (United States)?",
+    "Company": "Prism Technologies",
+    "Status": "Propositie (Observability als product/dienst aangeboden aan klanten)",
+    "Proposition": "Op het gebied van PerformPro levert Xforce licenties, training, advies, support en beheer, cost control, A-Z implementatiediensten en detachering van professionals. Dit doen wij onder andere bij ProRail en Cohesive, en ook onder de vlag van CMC voor NS en Eneco.",
+    "RoadmapStrategy": "PerformPro is en blijft d strategische partner van Xforce als het aankomt op observability. \nIn 2025 verwachten we nog minstens 1 grote PerformPro-klant bij te tekenen. \nWe zien bij bestaande klanten een sterke interesse in OpenTelemetry en gaan dus de integratie OTEL<-->PerformPro meer aandacht geven in het komende jaar.\nXforce verwacht in 2025 een propositie te hebben voor integratie van Observability met Automation voor \"AIOps\" en/of auto-remediation die het niveau van PoC ontstijgt\n17 juni: Xforce IMPACT Observability https://conclusionxforceimpactobservability2025.conclusionevents.nl/",
+    "sourceOfTelemetry": [
+      "SaaS / Standaard business applicatie",
+      "Applicatie (backend en frontend van maatwerk business applicaties)",
+      "Platform (zoals API Gateway, Database, ESB, Message Broker, Web Server, IAM, workflow, Low Code runtime platform)",
+      "Infrastructure (Cloud en/of On Prem)",
+      "CI/CD, Pipelines, Provisioning tools",
+      "Development Environment / IDP (IT4IT)",
+      "Workplace / eindgebruiker werkplek",
+      "Edge / IoT"
+    ],
+    "challengesConcernsAspirations": [],
+    "otherProducts": "",
+    "typesOfTelemetry": [
+      "Events (things happening to and around the monitoring systems)",
+      "Traces",
+      "Metrics",
+      "Logging"
+    ],
+    "observabilityDimensions": [
+      "BusinessFunctioneel",
+      "Performance",
+      "ExceptionsErrors",
+      "ComplianceRiskControl",
+      "Security",
+      "FinancialCostConsumption",
+      "ESGenergyCO2water"
+    ],
+    "automaticProcessing": [
+      "Alerts/Alarmsignalen naar engineers",
+      "Automatische creatie van tickets/incidenten",
+      "Automatische mitigatie/reactie op monitoring-bevindingen",
+      "AI gebaseerde verwerking/reactie"
+    ],
+    "facets": [
+      "Best practices / Standaard aanpak",
+      "Standaarden/ Richtlijnen (en QA controls)",
+      "Custom en Reusable Integraties / Dashboards / Rapportages / Beheer-scripts",
+      "Trainingsmateriaal"
+    ],
+    "applicable": [
+      "Open Telemetry",
+      "Testen / Testen in Productie",
+      "QA /Compliance"
+    ],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "PerformPro",
+        "time": "Nu"
+      },
+      {
+        "product": "FlexObserve",
+        "time": "Vroeger"
+      },
+      {
+        "product": "CloudWatch Pro",
+        "time": "Nu"
+      },
+      {
+        "product": "SystemSentry",
+        "time": "Nu"
+      },
+      {
+        "product": "VisualMetrics",
+        "time": "Nu"
+      },
+      {
+        "product": "MetricSentry",
+        "time": "Nu"
+      },
+      {
+        "product": "SkyMonitor",
+        "time": "Nu"
+      },
+      {
+        "product": "TraceConnect",
+        "time": "Nu"
+      }
+    ]
+  },
+  {
+    "Id": "22",
+    "StartTime": "7-4-2025 14:36",
+    "CompletionTime": "7-4-2025 15:16",
+    "Email": "anonymous",
+    "Name": "Dakota Anderson",
+    "Language": "English (United States)?",
+    "Company": "Polaris Data",
+    "Status": "Propositie (Observability als product/dienst aangeboden aan klanten)",
+    "Proposition": "Een van de vier kennispeilers van Prism Technologies is observability.  \nBinnen Prism Technologies is kennis van diverse observability tools (o.a. OpenTelemetry, VisualMetrics, InsightMonitor, DataPulse AppTracker, PerformPro) met een focus op PerformPro en OpenTelemetry.\n\n\nWe bieden onze expertise aan in de vorm van professional services en/of projecten (DSO, ProRail, ASML, Cohesive Group), training (ProRail >16 trainingsdagen, Cohesive Group, CMC) en Cost Control (ProRail).",
+    "RoadmapStrategy": "Onze ambitie is om d kennispartij te zijn op het gebied van observability.\nIn 2025 worden we premier business partner van PerformPro en verdiepen we onze OpenTelemetry expertise.",
+    "sourceOfTelemetry": [
+      "SaaS / Standaard business applicatie",
+      "Applicatie (backend en frontend van maatwerk business applicaties)",
+      "Platform (zoals API Gateway, Database, ESB, Message Broker, Web Server, IAM, workflow, Low Code runtime platform)",
+      "Infrastructure (Cloud en/of On Prem)",
+      "CI/CD, Pipelines, Provisioning tools",
+      "Edge / IoT",
+      "Development Environment / IDP (IT4IT)"
+    ],
+    "challengesConcernsAspirations": [
+      "Aandachtspunten: observability gerealateerde certificering van individuele medewerkers behouden (elke twee jaar vernieuwen).\nAmbitie: zoals eerder vermeld intern en extern d kennispartij zijn voor observability"
+    ],
+    "otherProducts": "op observability gebied is alles genoemd, op monitoring gebied voeren we momenteel Checkmk (actieve ondersteuning) en bouwen we waar mogelijk de volgende tools (Nagios XI en OP5 monitor) om naar OpenTelemetry/PerformPro of Checkmk",
+    "typesOfTelemetry": [
+      "Logging",
+      "Metrics",
+      "Traces",
+      "Events (things happening to and around the monitoring systems)",
+      "Profiles"
+    ],
+    "observabilityDimensions": [
+      "BusinessFunctioneel",
+      "Performance",
+      "ExceptionsErrors",
+      "ComplianceRiskControl",
+      "FinancialCostConsumption",
+      "Security",
+      "ESGenergyCO2water"
+    ],
+    "automaticProcessing": [
+      "Alerts/Alarmsignalen naar engineers",
+      "Automatische creatie van tickets/incidenten",
+      "Automatische mitigatie/reactie op monitoring-bevindingen",
+      "AI gebaseerde verwerking/reactie",
+      "Automatische Release Validation (software code updates)"
+    ],
+    "facets": [
+      "Best practices / Standaard aanpak",
+      "Trainingsmateriaal",
+      "Custom en Reusable Integraties / Dashboards / Rapportages / Beheer-scripts",
+      "Architecture Decision Records",
+      "Standaarden/ Richtlijnen (en QA controls)",
+      "Referentie Architectuur"
+    ],
+    "applicable": [
+      "Open Telemetry",
+      "Healthchecks / HealthProbes",
+      "Testen / Testen in Productie",
+      "QA /Compliance",
+      "SIEM"
+    ],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "PerformPro",
+        "time": "Nu"
+      },
+      {
+        "product": "FlexObserve",
+        "time": "Vroeger"
+      },
+      {
+        "product": "NetMonitor",
+        "time": "Vroeger"
+      },
+      {
+        "product": "CloudWatch Pro",
+        "time": "Nu"
+      },
+      {
+        "product": "SystemSentry",
+        "time": "Nu"
+      },
+      {
+        "product": "VisualMetrics",
+        "time": "Nu"
+      },
+      {
+        "product": "MetricSentry",
+        "time": "Nu"
+      },
+      {
+        "product": "InsightMonitor",
+        "time": "Nu"
+      },
+      {
+        "product": "DataPulse",
+        "time": "Nu"
+      },
+      {
+        "product": "MetricVision",
+        "time": "Vroeger"
+      },
+      {
+        "product": "SkyMonitor",
+        "time": "Nu"
+      },
+      {
+        "product": "CloudTracker",
+        "time": "Vroeger"
+      },
+      {
+        "product": "TraceConnect",
+        "time": "Nu"
+      },
+      {
+        "product": "AppTracker",
+        "time": "Nu"
+      },
+      {
+        "product": "TracePro",
+        "time": "Optie"
+      },
+      {
+        "product": "DataObserver",
+        "time": "Nu"
+      }
+    ]
+  },
+  {
+    "Id": "19",
+    "StartTime": "4-4-2025 14:35",
+    "CompletionTime": "4-4-2025 14:38",
+    "Email": "anonymous",
+    "Name": "Finley Green",
+    "Language": "English (United States)?",
+    "Company": "Zenith Networks",
+    "Status": "Niet iets waar jullie mee bezig zijn / met klanten over spreken",
+    "Proposition": "NVT",
+    "RoadmapStrategy": "NVT",
+    "sourceOfTelemetry": [
+      "Geen"
+    ],
+    "challengesConcernsAspirations": [],
+    "otherProducts": "",
+    "typesOfTelemetry": [
+      "Geen"
+    ],
+    "observabilityDimensions": [
+      "ESGenergyCO2water",
+      "BusinessFunctioneel",
+      "ComplianceRiskControl"
+    ],
+    "automaticProcessing": [
+      "Geen"
+    ],
+    "facets": [
+      "Geen"
+    ],
+    "applicable": [
+      "geen"
+    ],
+    "pastCurrentFutureObservabilityProducts": []
+  },
+  {
+    "Id": "7",
+    "StartTime": "20-3-2025 17:02",
+    "CompletionTime": "20-3-2025 17:03",
+    "Email": "anonymous",
+    "Name": "Emerson Nelson",
+    "Language": "English (United States)?",
+    "Company": "Matrix Computing",
+    "Status": "Niet iets waar jullie mee bezig zijn / met klanten over spreken",
+    "Proposition": "Geen",
+    "RoadmapStrategy": "Geen",
+    "sourceOfTelemetry": [],
+    "challengesConcernsAspirations": [],
+    "otherProducts": "",
+    "typesOfTelemetry": [],
+    "observabilityDimensions": [],
+    "automaticProcessing": [],
+    "facets": [],
+    "applicable": [],
+    "pastCurrentFutureObservabilityProducts": []
+  },
+  {
+    "Id": "8",
+    "StartTime": "20-3-2025 13:32",
+    "CompletionTime": "21-3-2025 09:03",
+    "Email": "anonymous",
+    "Name": "Emerson Nelson",
+    "Language": "English (United Kingdom)?",
+    "Company": "Phoenix Data",
+    "Status": "Propositie (Observability als product/dienst aangeboden aan klanten)",
+    "Proposition": "AI Inside - T&M Upsell\nThe idea is to build a role based AI efficiency sales pitch for each member of the team. Performance on a \"task based\" level, with and without AI tooling/support.  Because it is task based, the clients understands why an individual role is more efficient, when leveraging AI tooling. \n\nBy adding the sum of the weighted roles (Dev, QA, PM, UX/UI,...) in a client project, we are able to project the increased efficiency of the entire project when using AI. \n\nClients are given the choice: \"Would you like to use AI to increase the efficiency of the team by XX%?\"\nAssuming the answer is yes, we bill 5-10% more for AI usage. \n\nBecause we know which tooling is required for each role in the project, we can make this transparent to the client. We can put together a complete AI tool listing, check GDPR standards of each AI provider and have the client sign an AI usage contract in addition to our binding offer.",
+    "RoadmapStrategy": "We are currently evaluating individual roles and putting together the sales story for clients. \nNext we will evaluate the required tooling and look at GDPR and legal requirements. \nWe hope to be able to test this idea on clients in April/May.",
+    "sourceOfTelemetry": [
+      "Team member feedback"
+    ],
+    "challengesConcernsAspirations": [
+      "Making AI efficiency measurable, for us and our clients."
+    ],
+    "otherProducts": "",
+    "typesOfTelemetry": [
+      "Profiles",
+      "AI efficiency"
+    ],
+    "observabilityDimensions": [
+      "BusinessFunctioneel",
+      "Performance",
+      "ComplianceRiskControl",
+      "FinancialCostConsumption"
+    ],
+    "automaticProcessing": [],
+    "facets": [
+      "Best practices / Standaard aanpak"
+    ],
+    "applicable": [
+      "Testen / Testen in Productie",
+      "QA /Compliance"
+    ],
+    "pastCurrentFutureObservabilityProducts": []
+  },
+  {
+    "Id": "3",
+    "StartTime": "18-3-2025 12:57",
+    "CompletionTime": "18-3-2025 14:04",
+    "Email": "anonymous",
+    "Name": "Drew Hall",
+    "Language": "English (United States)?",
+    "Company": "Stellar Systems",
+    "Status": "Cruciaal, zichtbaar onderdeel van propositie",
+    "Proposition": "Voor ons is observability een van de pijlers waarop we software (willen) bouwen, naast security&privacy en performance&scalability. Zonder observability ben je blind in wat de applicatie in productie doet. \nVan deze pijlers is observability nog wel het minst uitgewerkt. Voor projecten die we zelf draaien krijgt het meestal wel aandacht, bij academies is het regelmatig een onderwerp.",
+    "RoadmapStrategy": "De komende jaren willen we een aantal proposities eromheen uitwerken, de eerste stap is het inzichtelijk maken van energie / co2eq verbruik. Hiervoor is al de nodige kennis en tooling ontwikkeld. Daarnaast zit er ook een link met performance/scalability: ook daar is een observability voor nodig en zetten we regelmatig APM tooling in.",
+    "sourceOfTelemetry": [
+      "Applicatie (backend en frontend van maatwerk business applicaties)",
+      "Platform (zoals API Gateway, Database, ESB, Message Broker, Web Server, IAM, workflow, Low Code runtime platform)",
+      "Infrastructure (Cloud en/of On Prem)"
+    ],
+    "challengesConcernsAspirations": [
+      "Wij bekijken het vanuit developer perspectief: wat kan een developer bijdragen om een applicatie in productie te kunnen laten draaien. En welke tools zijn er zoal om uit te kiezen. Daar waar logging en security inmiddels redelijk standaard non-functionals zijn, lijkt dat voor observability in het algemeen nog minder, als in: er zit nog een behoorlijke gap tussen business dashboards met mooie KPI's die vaak nog via een omweg telemetrie uit (maatwerk) software moeten halen. En die gap wordt alleen maar groter als het gaat om kpi's die niet direct de business raken (co2eq, apdex, ...)"
+    ],
+    "otherProducts": "rondom energie:\n* intern ontwikkelde energy profiler voor de cloud: https://github.com/Stellar Systems/cpu-time-exporter\n* kepler\n* joularjx",
+    "typesOfTelemetry": [
+      "Logging",
+      "Metrics",
+      "Traces"
+    ],
+    "observabilityDimensions": [
+      "BusinessFunctioneel",
+      "Performance",
+      "ExceptionsErrors",
+      "Security",
+      "ESGenergyCO2water",
+      "FinancialCostConsumption"
+    ],
+    "automaticProcessing": [
+      "Alerts/Alarmsignalen naar engineers"
+    ],
+    "facets": [
+      "Custom en Reusable Integraties / Dashboards / Rapportages / Beheer-scripts",
+      "Trainingsmateriaal"
+    ],
+    "applicable": [
+      "Open Telemetry",
+      "Healthchecks / HealthProbes"
+    ],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "PerformPro",
+        "time": "Optie"
+      },
+      {
+        "product": "FlexObserve",
+        "time": "Nu"
+      },
+      {
+        "product": "CloudWatch Pro",
+        "time": "Optie"
+      },
+      {
+        "product": "VisualMetrics",
+        "time": "Nu"
+      },
+      {
+        "product": "MetricSentry",
+        "time": "Nu"
+      },
+      {
+        "product": "InsightMonitor",
+        "time": "Optie"
+      },
+      {
+        "product": "DataPulse",
+        "time": "Optie"
+      },
+      {
+        "product": "MetricVision",
+        "time": "Nu"
+      },
+      {
+        "product": "PathFinder",
+        "time": "Nu"
+      },
+      {
+        "product": "AppTracker",
+        "time": "Optie"
+      }
+    ]
+  },
+  {
+    "Id": "17",
+    "StartTime": "4-4-2025 10:50",
+    "CompletionTime": "4-4-2025 10:58",
+    "Email": "anonymous",
+    "Name": "Skyler Thomas",
+    "Language": "English (United Kingdom)?",
+    "Company": "Apex Technologies",
+    "Status": "Propositie (Observability als product/dienst aangeboden aan klanten)",
+    "Proposition": "Observability in both MLOps and LLMOps acts as a safety net, enabling continuous model improvement while maintaining operational and ethical standards. This also includes monitoring and auditing for compliance & thrustworthiness.",
+    "RoadmapStrategy": "More focus on GenAI & Agents observability.",
+    "sourceOfTelemetry": [
+      "SaaS / Standaard business applicatie",
+      "Applicatie (backend en frontend van maatwerk business applicaties)",
+      "CI/CD, Pipelines, Provisioning tools",
+      "Development Environment / IDP (IT4IT)",
+      "Infrastructure (Cloud en/of On Prem)",
+      "All components in the GenAI MLOps stack generate data required for observability services. ccuracy decay alerts, concept drift scores, and business KPI correlations etc"
+    ],
+    "challengesConcernsAspirations": [],
+    "otherProducts": "Arize, CloudWatch Pro, Databricks, Langchain (Langfuse, Langsmith), RAGAS, Deeploy",
+    "typesOfTelemetry": [
+      "Logging",
+      "Metrics",
+      "Events (things happening to and around the monitoring systems)",
+      "Traces",
+      "Profiles",
+      "Predictions & Model output + Data Quality"
+    ],
+    "observabilityDimensions": [
+      "BusinessFunctioneel",
+      "Performance",
+      "ExceptionsErrors",
+      "ComplianceRiskControl",
+      "Security",
+      "FinancialCostConsumption",
+      "ESGenergyCO2water",
+      "DataqualityAIModelperformance"
+    ],
+    "automaticProcessing": [
+      "Alerts/Alarmsignalen naar engineers",
+      "AI gebaseerde verwerking/reactie",
+      "API-triggers such as retraining pipelines or data quality checks & exception ruling"
+    ],
+    "facets": [
+      "Best practices / Standaard aanpak",
+      "Standaarden/ Richtlijnen (en QA controls)",
+      "Custom en Reusable Integraties / Dashboards / Rapportages / Beheer-scripts"
+    ],
+    "applicable": [
+      "Healthchecks / HealthProbes",
+      "Testen / Testen in Productie",
+      "MLOps best practices"
+    ],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "PerformPro",
+        "time": "Vroeger"
+      },
+      {
+        "product": "FlexObserve",
+        "time": "Vroeger"
+      },
+      {
+        "product": "CloudWatch Pro",
+        "time": "Optie"
+      },
+      {
+        "product": "InsightMonitor",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "DataPulse",
+        "time": "Vroeger"
+      },
+      {
+        "product": "DataObserver",
+        "time": "Nu"
+      }
+    ]
+  },
+  {
+    "Id": "10",
+    "StartTime": "22-3-2025 06:55",
+    "CompletionTime": "22-3-2025 07:02",
+    "Email": "anonymous",
+    "Name": "Jordan Lee",
+    "Language": "English (United Kingdom)?",
+    "Company": "Matrix Computing",
+    "Status": "Cruciaal, zichtbaar onderdeel van propositie",
+    "Proposition": "Within Matrix Computing we offer observability within our DataOps / Hibrid proposition. It covers concepts such as overall cloud monitoring, data pipeline and data product monitoring, Cost monitoring. In addition we have observability capacity on our own private cloud and internal cloud capacity. We implement observability as a practice at customer sites, in addition we use observability solutions for managed services. Depending on the customer in can be Azure or AWS native monitoring + solutions that are present in the data platform of choice.",
+    "RoadmapStrategy": "It is continuously on our roadmap",
+    "sourceOfTelemetry": [
+      "SaaS / Standaard business applicatie",
+      "Infrastructure (Cloud en/of On Prem)",
+      "CI/CD, Pipelines, Provisioning tools",
+      "Applicatie (backend en frontend van maatwerk business applicaties)",
+      "Platform (zoals API Gateway, Database, ESB, Message Broker, Web Server, IAM, workflow, Low Code runtime platform)",
+      "Workplace / eindgebruiker werkplek"
+    ],
+    "challengesConcernsAspirations": [],
+    "otherProducts": "",
+    "typesOfTelemetry": [
+      "Logging",
+      "Metrics",
+      "Traces",
+      "Events (things happening to and around the monitoring systems)"
+    ],
+    "observabilityDimensions": [
+      "BusinessFunctioneel",
+      "Performance",
+      "ExceptionsErrors",
+      "ComplianceRiskControl",
+      "Security",
+      "FinancialCostConsumption"
+    ],
+    "automaticProcessing": [
+      "Alerts/Alarmsignalen naar engineers",
+      "Automatische creatie van tickets/incidenten",
+      "Automatische mitigatie/reactie op monitoring-bevindingen"
+    ],
+    "facets": [
+      "Standaarden/ Richtlijnen (en QA controls)",
+      "Best practices / Standaard aanpak"
+    ],
+    "applicable": [
+      "Testen / Testen in Productie",
+      "QA /Compliance",
+      "SIEM",
+      "Healthchecks / HealthProbes"
+    ],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "CloudWatch Pro",
+        "time": "Nu"
+      },
+      {
+        "product": "SkyMonitor",
+        "time": "Nu"
+      },
+      {
+        "product": "DataObserver",
+        "time": "Nu"
+      }
+    ]
+  },
+  {
+    "Id": "4",
+    "StartTime": "18-3-2025 13:59",
+    "CompletionTime": "18-3-2025 14:09",
+    "Email": "anonymous",
+    "Name": "Quinn Moore",
+    "Language": "English (United States)?",
+    "Company": "Fusion Software",
+    "Status": "Interne activiteit - van belang in uitvoering van/rapportage over dienstverlening",
+    "Proposition": "We doen dit voor al onze klanten als onderdeel van onze end-to-end / fullservice propostie op het gebied van website en app development en managed hosting/services.",
+    "RoadmapStrategy": "Vanuit Fusion Software vooral het blijven ontzorgen en adviseren van onze klanten.",
+    "sourceOfTelemetry": [
+      "SaaS / Standaard business applicatie",
+      "Platform (zoals API Gateway, Database, ESB, Message Broker, Web Server, IAM, workflow, Low Code runtime platform)",
+      "Infrastructure (Cloud en/of On Prem)",
+      "CI/CD, Pipelines, Provisioning tools",
+      "Development Environment / IDP (IT4IT)"
+    ],
+    "challengesConcernsAspirations": [
+      "Uitbreidingen in de dienstverlening waar we die nog missen zoals SIEM"
+    ],
+    "otherProducts": "Conclusion Vulnerability Monitoring platform / DefectDojo / Trivy / etc",
+    "typesOfTelemetry": [
+      "Logging",
+      "Metrics",
+      "Traces",
+      "Events (things happening to and around the monitoring systems)",
+      "Profiles"
+    ],
+    "observabilityDimensions": [
+      "Performance",
+      "ExceptionsErrors",
+      "ComplianceRiskControl",
+      "Security",
+      "FinancialCostConsumption",
+      "ESGenergyCO2water",
+      "BusinessFunctioneel"
+    ],
+    "automaticProcessing": [
+      "Alerts/Alarmsignalen naar engineers",
+      "Automatische creatie van tickets/incidenten"
+    ],
+    "facets": [
+      "Best practices / Standaard aanpak",
+      "Standaarden/ Richtlijnen (en QA controls)",
+      "Referentie Architectuur",
+      "Custom en Reusable Integraties / Dashboards / Rapportages / Beheer-scripts"
+    ],
+    "applicable": [
+      "Testen / Testen in Productie",
+      "QA /Compliance",
+      "Open Telemetry",
+      "Healthchecks / HealthProbes"
+    ],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "FlexObserve",
+        "time": "Vroeger"
+      },
+      {
+        "product": "CloudWatch Pro",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "VisualMetrics",
+        "time": "Vroeger"
+      },
+      {
+        "product": "MetricSentry",
+        "time": "Nu"
+      },
+      {
+        "product": "InsightMonitor",
+        "time": "Nu"
+      },
+      {
+        "product": "DataPulse",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "MetricVision",
+        "time": "Vroeger"
+      },
+      {
+        "product": "SkyMonitor",
+        "time": "Nu"
+      },
+      {
+        "product": "AppTracker",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "DataObserver",
+        "time": "Vroeger"
+      }
+    ]
+  },
+  {
+    "Id": "13",
+    "StartTime": "27-3-2025 09:18",
+    "CompletionTime": "27-3-2025 10:08",
+    "Email": "anonymous",
+    "Name": "Emerson Nelson",
+    "Language": "English (United States)?",
+    "Company": "Stellar Systems",
+    "Status": "Propositie (Observability als product/dienst aangeboden aan klanten)",
+    "Proposition": "Hierin hebben we meerdere smaken. De eerste vorm is alleen van toepassing bij klanten waar dat mee is afgesproken. Dit zijn kwartaalrapportages waarin wordt gecontroleerd hoe het kwartaal is verlopen voor die specifieke klant. Daar wordt vooral gekeken welke fouten er zijn langsgekomen, hoe goed heeft het systeem het gedaan (statistieken), geplande en uitgevoerde werkzaamheden, bijzonderheden (b.v. aanvallen op het systeem), (contractuele)afspraken, huidige status van het systeem, aanbevelingen, ect.\n\nDe andere smaak is een afgeslankte vorm van het kwartaalrapport. Deze worden, afhankelijk van hoe oud het systeem is, vaker uitgevoerd. In deze periodieke controles van het systeem wordt het systeem nagekeken. Hierbij wordt gekeken naar vulnerabilities, users die toegang hebben tot het systeem, foutmeldingen van het systeem, beschikbaarheid van de website. Kortom, draait jouw systeem nog zoals het moet. Alles ook met een bijpassend advies. Dit is een service die we alle klanten geven als onderdeel van dat wij hosten.\n\nBuiten deze zaken houden wij met enige regelmaat ook onze hosting in de gaten en doen wij updates/controles waar nodig is.\nDit valt binnen het contract van het hosten.",
+    "RoadmapStrategy": "Op dit moment staan er geen specifieke andere plannen voor observability. De huidige zaken zijn afdoende. We zijn wel altijd aan het controleren en kijken wat beter kan. Dit is echter niet vooraf gepland omdat dit ook afhankelijk kan zijn van hoe de technologie en situatie veranderd.\n\nKijkende naar de directe toekomst staat in de planning een stukje dienstverlening uit te breiden voor de klanten die DNS bij ons hebben afgenomen als dienst.\nDaar wordt gewerkt aan een tool voor beter overzicht met extra controles of alles correct staat. Als ook een tool voor WCAG-controle. Echter is deze voorlopig op de lange baan geschoven. Er zijn nog wel een aantal andere ideen, maar die zijn nog niet concreet genoeg.",
+    "sourceOfTelemetry": [
+      "Applicatie (backend en frontend van maatwerk business applicaties)",
+      "SaaS / Standaard business applicatie",
+      "Infrastructure (Cloud en/of On Prem)"
+    ],
+    "challengesConcernsAspirations": [
+      "Ons doel is vooral informatief en ter dienstverlening naar de klant. Een huidig plan is de logs verplaatsen naar een centralere locatie."
+    ],
+    "otherProducts": "Uptimerobot & Application Insights",
+    "typesOfTelemetry": [
+      "Logging",
+      "Metrics",
+      "Events (things happening to and around the monitoring systems)"
+    ],
+    "observabilityDimensions": [
+      "BusinessFunctioneel",
+      "Performance",
+      "ExceptionsErrors",
+      "Security",
+      "ComplianceRiskControl"
+    ],
+    "automaticProcessing": [
+      "Alerts/Alarmsignalen naar engineers",
+      "Automatische mitigatie/reactie op monitoring-bevindingen"
+    ],
+    "facets": [
+      "Best practices / Standaard aanpak",
+      "Custom en Reusable Integraties / Dashboards / Rapportages / Beheer-scripts"
+    ],
+    "applicable": [
+      "Testen / Testen in Productie",
+      "Healthchecks / HealthProbes"
+    ],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "CloudWatch Pro",
+        "time": "Nu"
+      },
+      {
+        "product": "DataObserver",
+        "time": "Nu"
+      }
+    ]
+  },
+  {
+    "Id": "12",
+    "StartTime": "25-3-2025 09:09",
+    "CompletionTime": "26-3-2025 10:11",
+    "Email": "anonymous",
+    "Name": "Sam Walker",
+    "Language": "English (United States)?",
+    "Company": "Catalyst Systems",
+    "Status": "Beperkt gebruik binnen klantproject",
+    "Proposition": "Observability is geen onderdeel van propositie.",
+    "RoadmapStrategy": "Staat niet op de roadmap en heeft momenteel geen focus.",
+    "sourceOfTelemetry": [
+      "Applicatie (backend en frontend van maatwerk business applicaties)",
+      "Infrastructure (Cloud en/of On Prem)"
+    ],
+    "challengesConcernsAspirations": [
+      "Observability is (nog) geen essentieel onderdeel van ons development proces. Mogelijk gaat dit belangrijker worden wanneer we meer complex maatwerk ontwikkelen. Vooralsnog geen concrete aandachtspunten en ambities."
+    ],
+    "otherProducts": "HyperDX, Sentry",
+    "typesOfTelemetry": [
+      "Logging",
+      "Traces",
+      "Metrics"
+    ],
+    "observabilityDimensions": [
+      "BusinessFunctioneel",
+      "Performance",
+      "ExceptionsErrors"
+    ],
+    "automaticProcessing": [
+      "Alerts/Alarmsignalen naar engineers"
+    ],
+    "facets": [
+      "Standaarden/ Richtlijnen (en QA controls)",
+      "Slechts high-level richtlijn over inzet en alleen binnen .NET"
+    ],
+    "applicable": [
+      "Open Telemetry",
+      "Healthchecks / HealthProbes"
+    ],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "CloudWatch Pro",
+        "time": "Nu"
+      },
+      {
+        "product": "InsightMonitor",
+        "time": "Optie"
+      },
+      {
+        "product": "MetricVision",
+        "time": "Optie"
+      }
+    ]
+  },
+  {
+    "Id": "11",
+    "StartTime": "25-3-2025 09:42",
+    "CompletionTime": "25-3-2025 09:57",
+    "Email": "anonymous",
+    "Name": "Jordan Lee",
+    "Language": "English (United Kingdom)?",
+    "Company": "Vortex Computing",
+    "Status": "Cruciaal, zichtbaar onderdeel van propositie",
+    "Proposition": "24/7 managed services of integration platforms and -applications. E.g. NS.",
+    "RoadmapStrategy": "-",
+    "sourceOfTelemetry": [
+      "Platform (zoals API Gateway, Database, ESB, Message Broker, Web Server, IAM, workflow, Low Code runtime platform)",
+      "Infrastructure (Cloud en/of On Prem)"
+    ],
+    "challengesConcernsAspirations": [
+      "It is an important element of our proposition regarding 24/7 managed services. It is not a proposition in itself. We also collaborate strongly with other ecosystems companies like CMC and Force."
+    ],
+    "otherProducts": "-",
+    "typesOfTelemetry": [
+      "Traces",
+      "Metrics",
+      "Logging"
+    ],
+    "observabilityDimensions": [
+      "ExceptionsErrors",
+      "Performance",
+      "FinancialCostConsumption"
+    ],
+    "automaticProcessing": [
+      "Alerts/Alarmsignalen naar engineers"
+    ],
+    "facets": [
+      "Architecture Decision Records",
+      "Custom en Reusable Integraties / Dashboards / Rapportages / Beheer-scripts",
+      "Best practices / Standaard aanpak"
+    ],
+    "applicable": [
+      "Open Telemetry",
+      "Healthchecks / HealthProbes"
+    ],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "PerformPro",
+        "time": "Nu"
+      },
+      {
+        "product": "FlexObserve",
+        "time": "Nu"
+      },
+      {
+        "product": "LogStream",
+        "time": "Nu"
+      },
+      {
+        "product": "CloudWatch Pro",
+        "time": "Nu"
+      },
+      {
+        "product": "VisualMetrics",
+        "time": "Nu"
+      },
+      {
+        "product": "MetricSentry",
+        "time": "Nu"
+      },
+      {
+        "product": "DataPulse",
+        "time": "Vroeger"
+      }
+    ]
+  },
+  {
+    "Id": "15",
+    "StartTime": "4-4-2025 08:45",
+    "CompletionTime": "4-4-2025 09:53",
+    "Email": "anonymous",
+    "Name": "Sam Walker",
+    "Language": "English (United States)?",
+    "Company": "Quantum Dynamics",
+    "Status": "Cruciaal, zichtbaar onderdeel van propositie",
+    "Proposition": "",
+    "RoadmapStrategy": "",
+    "sourceOfTelemetry": [
+      "Applicatie (backend en frontend van maatwerk business applicaties)",
+      "Platform (zoals API Gateway, Database, ESB, Message Broker, Web Server, IAM, workflow, Low Code runtime platform)",
+      "Infrastructure (Cloud en/of On Prem)",
+      "CI/CD, Pipelines, Provisioning tools"
+    ],
+    "challengesConcernsAspirations": [],
+    "otherProducts": "",
+    "typesOfTelemetry": [
+      "Logging",
+      "Metrics",
+      "Traces",
+      "Events (things happening to and around the monitoring systems)"
+    ],
+    "observabilityDimensions": [
+      "Performance",
+      "ExceptionsErrors",
+      "ComplianceRiskControl",
+      "Security",
+      "FinancialCostConsumption",
+      "BusinessFunctioneel"
+    ],
+    "automaticProcessing": [
+      "Alerts/Alarmsignalen naar engineers"
+    ],
+    "facets": [],
+    "applicable": [
+      "Open Telemetry",
+      "Healthchecks / HealthProbes"
+    ],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "CloudWatch Pro",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "SystemSentry",
+        "time": "Nu"
+      },
+      {
+        "product": "VisualMetrics",
+        "time": "Nu"
+      },
+      {
+        "product": "MetricSentry",
+        "time": "Nu"
+      }
+    ]
+  },
+  {
+    "Id": "23",
+    "StartTime": "8-4-2025 12:48",
+    "CompletionTime": "8-4-2025 12:58",
+    "Email": "anonymous",
+    "Name": "Emerson Nelson",
+    "Language": "English (United States)?",
+    "Company": "Fusion Software",
+    "Status": "Interne activiteit - van belang in uitvoering van/rapportage over dienstverlening",
+    "Proposition": "We leveren integratie diensten op Azure aan onze klanten. Die maken allemaal gebruik van Application Insights. Voorlopig is dat voor ons voldoende",
+    "RoadmapStrategy": "Geen bijzondere plannen",
+    "sourceOfTelemetry": [
+      "Platform (zoals API Gateway, Database, ESB, Message Broker, Web Server, IAM, workflow, Low Code runtime platform)",
+      "CI/CD, Pipelines, Provisioning tools",
+      "Applicatie (backend en frontend van maatwerk business applicaties)"
+    ],
+    "challengesConcernsAspirations": [
+      "Een gecentraliseerde monitoring en alerting oplossing. Automatische security scans."
+    ],
+    "otherProducts": "",
+    "typesOfTelemetry": [
+      "Metrics",
+      "Logging",
+      "Traces",
+      "Events (things happening to and around the monitoring systems)"
+    ],
+    "observabilityDimensions": [
+      "BusinessFunctioneel",
+      "Performance",
+      "ExceptionsErrors",
+      "FinancialCostConsumption",
+      "ComplianceRiskControl",
+      "Security"
+    ],
+    "automaticProcessing": [
+      "Alerts/Alarmsignalen naar engineers"
+    ],
+    "facets": [
+      "Best practices / Standaard aanpak"
+    ],
+    "applicable": [
+      "Healthchecks / HealthProbes",
+      "Testen / Testen in Productie"
+    ],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "CloudWatch Pro",
+        "time": "Nu"
+      }
+    ]
+  },
+  {
+    "Id": "24",
+    "StartTime": "8-4-2025 13:13",
+    "CompletionTime": "8-4-2025 13:24",
+    "Email": "anonymous",
+    "Name": "Jamie Taylor",
+    "Language": "English (United States)?",
+    "Company": "Spectrum Technologies",
+    "Status": "Zowel intern als bij een klant. Willen die graag meer doen, maar afhankelijk van wensen klant(en)",
+    "Proposition": "We hebben geen propositie, dit kan integraal onderdeel zijn van de applicaties die we opleveren. Bij n klant is dat zo ingericht en realiseren we dat specifieke logging verstuurd wordt naar centrale monitoring. (ELK van FlexObserve met logstash). Bij een andere klant willen hier ook naartoe, maar die geeft aan daar nog geen meerwaarde van in te zien.",
+    "RoadmapStrategy": "Vorig jaar wel, niet aan toegekomen. Ook gesprek gevoerd met de klant om hier stappen in te zetten, maar helaas geen vervolg aan kunnen geven. Intern wel tool ontwikkeld die dit voor onze interne apps kan doen.",
+    "sourceOfTelemetry": [
+      "Platform (zoals API Gateway, Database, ESB, Message Broker, Web Server, IAM, workflow, Low Code runtime platform)"
+    ],
+    "challengesConcernsAspirations": [
+      "Bij klanten met een applicatie landschap dit verder inrichten en ecosysteem expertise aan tafel brengen voor de realisatie en inrichting hiervan."
+    ],
+    "otherProducts": "",
+    "typesOfTelemetry": [
+      "Logging",
+      "Metrics"
+    ],
+    "observabilityDimensions": [
+      "Performance",
+      "BusinessFunctioneel"
+    ],
+    "automaticProcessing": [],
+    "facets": [
+      "Custom en Reusable Integraties / Dashboards / Rapportages / Beheer-scripts"
+    ],
+    "applicable": [
+      "Open Telemetry"
+    ],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "PerformPro",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "FlexObserve",
+        "time": "Nu"
+      },
+      {
+        "product": "MetricSentry",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "InsightMonitor",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "DataPulse",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "MetricVision",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "AppTracker",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "DataObserver",
+        "time": "Optie"
+      }
+    ]
+  },
+  {
+    "Id": "25",
+    "StartTime": "8-4-2025 13:22",
+    "CompletionTime": "8-4-2025 13:25",
+    "Email": "anonymous",
+    "Name": "Rowan Adams",
+    "Language": "English (United States)?",
+    "Company": "Horizon Innovations",
+    "Status": "Niet iets waar jullie mee bezig zijn / met klanten over spreken",
+    "Proposition": "",
+    "RoadmapStrategy": "Would very much like to grow in this area as it is a very good fit as a OneShore service which we can provide across South Africa and Portugal.",
+    "sourceOfTelemetry": [],
+    "challengesConcernsAspirations": [],
+    "otherProducts": "",
+    "typesOfTelemetry": [],
+    "observabilityDimensions": [],
+    "automaticProcessing": [],
+    "facets": [],
+    "applicable": [],
+    "pastCurrentFutureObservabilityProducts": []
+  },
+  {
+    "Id": "26",
+    "StartTime": "8-4-2025 15:49",
+    "CompletionTime": "8-4-2025 19:42",
+    "Email": "anonymous",
+    "Name": "Reese Jackson",
+    "Language": "English (United Kingdom)?",
+    "Company": "Polaris Data",
+    "Status": "Propositie (Observability als product/dienst aangeboden aan klanten)",
+    "Proposition": "SAP Platform Monitoring and Predictive (alarmistic)  Maintenance for SAP Platform and SW Update",
+    "RoadmapStrategy": "Objective to automate Monitoring and alerts using AI or RPA",
+    "sourceOfTelemetry": [
+      "Platform (zoals API Gateway, Database, ESB, Message Broker, Web Server, IAM, workflow, Low Code runtime platform)",
+      "Applicatie (backend en frontend van maatwerk business applicaties)",
+      "Infrastructure (Cloud en/of On Prem)",
+      "Development Environment / IDP (IT4IT)"
+    ],
+    "challengesConcernsAspirations": [
+      "How to integrate GenAI on service operations, in an efficient and output driven approach."
+    ],
+    "otherProducts": "SAP Cloud ALM for Operations",
+    "typesOfTelemetry": [
+      "Logging",
+      "Metrics",
+      "Traces",
+      "Events (things happening to and around the monitoring systems)",
+      "Profiles"
+    ],
+    "observabilityDimensions": [
+      "Performance",
+      "ExceptionsErrors",
+      "Security",
+      "ComplianceRiskControl"
+    ],
+    "automaticProcessing": [
+      "Automatische mitigatie/reactie op monitoring-bevindingen",
+      "SAP native tool",
+      "Alerts/Alarmsignalen naar engineers"
+    ],
+    "facets": [
+      "Best practices / Standaard aanpak",
+      "Referentie Architectuur",
+      "Standaarden/ Richtlijnen (en QA controls)",
+      "Trainingsmateriaal"
+    ],
+    "applicable": [
+      "QA /Compliance"
+    ],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "CloudWatch Pro",
+        "time": "Optie"
+      },
+      {
+        "product": "VisualMetrics",
+        "time": "Optie"
+      },
+      {
+        "product": "MetricSentry",
+        "time": "Optie"
+      },
+      {
+        "product": "SkyMonitor",
+        "time": "Optie"
+      },
+      {
+        "product": "AppTracker",
+        "time": "Optie"
+      }
+    ]
+  },
+  {
+    "Id": "27",
+    "StartTime": "9-4-2025 12:29",
+    "CompletionTime": "9-4-2025 13:00",
+    "Email": "anonymous",
+    "Name": "Sam Walker",
+    "Language": "English (United States)?",
+    "Company": "Stellar Systems",
+    "Status": "Cruciaal, zichtbaar onderdeel van propositie",
+    "Proposition": "In onze diensten zit monitoring met SAP tooling zoals Focused RUN (voor on-premise omgevingen) en Cloud ALM (voor cloud omgevingen) als standaard dienst verwerkt. Deze monitoring gebuiken wij voor de instandhouding van de omgevingen, het automatisch genereren van event driven alerts en tickets en is tevens toegankelijk voor onze klanten om hun eigen SLR en tactische dasboards in te zien aangaande performance en beschikbaarheid van hun omgevingen.\nWat wij ook aanbieden is het ontsluiten van monitoring en logging gegevens naar eventuele centrale observability platformen. Wij bieden zelf geen centrale observability platformen als PerformPro/InsightMonitor als dienst aan.",
+    "RoadmapStrategy": "SAP monitoring tools die nu gebruikt worden die zullen op middellange termijn steeds meer overgaan op Cloud ALM i.p.v. on-premise monitoring met Focused RUN. Waar wij ook gaan werken is een standaard koppeling zodat alle logging en monitoring gevens via opentelemetry beschikbaar gesteld kan worden.\nWIj hebben geen plannen om een centrale observability platform als dienst aan te gaan bieden.",
+    "sourceOfTelemetry": [
+      "SaaS / Standaard business applicatie",
+      "Applicatie (backend en frontend van maatwerk business applicaties)",
+      "Platform (zoals API Gateway, Database, ESB, Message Broker, Web Server, IAM, workflow, Low Code runtime platform)",
+      "Infrastructure (Cloud en/of On Prem)"
+    ],
+    "challengesConcernsAspirations": [
+      "Zie antwoord op raodmap vraag."
+    ],
+    "otherProducts": "SAP Focused RUN, SAP Cloud ALM.",
+    "typesOfTelemetry": [
+      "Logging",
+      "Metrics",
+      "Traces"
+    ],
+    "observabilityDimensions": [
+      "BusinessFunctioneel",
+      "Performance",
+      "ExceptionsErrors",
+      "Security"
+    ],
+    "automaticProcessing": [
+      "Alerts/Alarmsignalen naar engineers",
+      "Automatische creatie van tickets/incidenten"
+    ],
+    "facets": [
+      "Best practices / Standaard aanpak",
+      "Referentie Architectuur",
+      "Custom en Reusable Integraties / Dashboards / Rapportages / Beheer-scripts"
+    ],
+    "applicable": [
+      "Open Telemetry",
+      "SIEM"
+    ],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "PerformPro",
+        "time": "In Verkenning"
+      }
+    ]
+  },
+  {
+    "Id": "28",
+    "StartTime": "10-4-2025 19:07",
+    "CompletionTime": "10-4-2025 19:14",
+    "Email": "anonymous",
+    "Name": "Riley Wilson",
+    "Language": "English (United Kingdom)?",
+    "Company": "Titan Technologies",
+    "Status": "Niet iets waar jullie mee bezig zijn / met klanten over spreken",
+    "Proposition": "",
+    "RoadmapStrategy": "",
+    "sourceOfTelemetry": [
+      "Edge / IoT"
+    ],
+    "challengesConcernsAspirations": [],
+    "otherProducts": "",
+    "typesOfTelemetry": [],
+    "observabilityDimensions": [
+      "ESGenergyCO2water"
+    ],
+    "automaticProcessing": [
+      "Automatische creatie van tickets/incidenten"
+    ],
+    "facets": [],
+    "applicable": [
+      "Testen / Testen in Productie"
+    ],
+    "pastCurrentFutureObservabilityProducts": []
+  },
+  {
+    "Id": "29",
+    "StartTime": "11-4-2025 11:17",
+    "CompletionTime": "14-4-2025 10:58",
+    "Email": "anonymous",
+    "Name": "Riley Wilson",
+    "Language": "English (United Kingdom)?",
+    "Company": "Titan Technologies",
+    "Status": "Interne activiteit - van belang in uitvoering van/rapportage over dienstverlening",
+    "Proposition": "Neotalent currently does not offer observability services to its clients. However, we understand that observability plays an important role in a company by providing deep visibility into the health and performance of systems, enabling teams to detect, diagnose, and resolve issues quickly. It allows organizations to understand whats happening inside their complex infrastructure through data such as logs, metrics, and traces, which leads to improved system reliability, faster incident response, and better user experiences. By making operations more predictable and efficient, observability supports innovation, scalability, and cost optimization, ultimately contributing to the companys overall growth and success. Therefore, it is something we want to include in our offering in the future.",
+    "RoadmapStrategy": "Observability within a firm refers to the ability to monitor, measure, and analyze various internal processes, systems, and operations to gain insights into how the business is performing. With this in mind, in 2025 Neotalent intends to establish and collect data from different sources, tracking key metrics, and using tools and technologies to visualize and interpret this information to make informed decisions, beyond the metrics and processes already implemented.",
+    "sourceOfTelemetry": [
+      "SaaS / Standaard business applicatie",
+      "Applicatie (backend en frontend van maatwerk business applicaties)",
+      "Infrastructure (Cloud en/of On Prem)",
+      "Workplace / eindgebruiker werkplek"
+    ],
+    "challengesConcernsAspirations": [
+      "In Neotalent, the main challenges around observability include integrating diverse data sources across teams, aligning on standardized metrics and tooling, and fostering a culture where observability is treated as a shared responsibility rather than an ops-only concern. Concerns often center on data overload, lack of visibility into distributed or microservices-based architectures, and the costsboth financial and operationalof implementing and maintaining observability infrastructure. The ambition is to achieve end-to-end visibility that enables teams to detect, diagnose, and resolve issues quickly, ideally before they impact users."
+    ],
+    "otherProducts": "Currently at Neotalent we use tools such as Bullhorn, DTE, Dynamics among others to extract all the information necessary to perform all the metrics/KPIs. It is also through these platforms that we obtain reports.",
+    "typesOfTelemetry": [
+      "Metrics",
+      "Profiles",
+      "Logging"
+    ],
+    "observabilityDimensions": [
+      "BusinessFunctioneel",
+      "Performance",
+      "ExceptionsErrors",
+      "ComplianceRiskControl",
+      "Security",
+      "FinancialCostConsumption",
+      "ESGenergyCO2water"
+    ],
+    "automaticProcessing": [
+      "Alerts/Alarmsignalen naar engineers"
+    ],
+    "facets": [
+      "Best practices / Standaard aanpak",
+      "Referentie Architectuur",
+      "Trainingsmateriaal"
+    ],
+    "applicable": [],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "PerformPro",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "CloudWatch Pro",
+        "time": "In Verkenning"
+      }
+    ]
+  },
+  {
+    "Id": "30",
+    "StartTime": "15-4-2025 08:54",
+    "CompletionTime": "15-4-2025 09:01",
+    "Email": "anonymous",
+    "Name": "Pat King",
+    "Language": "English (United States)?",
+    "Company": "Vortex Computing",
+    "Status": "Interne activiteit - van belang in uitvoering van/rapportage over dienstverlening",
+    "Proposition": "Voor al onze klanten die een SLA hebben maken we gebruik van dit soort tooling, dat kan heel basaal zijn in de vorm van uptime monitoring tot gedetailleerde inzichten via bijvoorbeeld Application Insights",
+    "RoadmapStrategy": "We willen hier de komende jaren verder op gaan uitbreiden en zijn op dit moment aan het onderzoeken welke tooling we hier het beste voor in kunnen zetten, rekening houdend met welke kosten dit met zich meebrengt en wat het oplevert. Veel tooling hebben een fors prijskaartje, wat je onder de SLA niet zult terug verdienen. Aanvullend zijn we gestart met een Pilot van Conclusion Shield",
+    "sourceOfTelemetry": [
+      "SaaS / Standaard business applicatie",
+      "Applicatie (backend en frontend van maatwerk business applicaties)"
+    ],
+    "challengesConcernsAspirations": [
+      "De balans tussen veel loggen en daarmee veel inzichten krijgen en de bijhorende kosten blijft een uitdaging. \nToch is het belangrijk dat er continue in ontwikkeld wordt, omdat je hiermee de continueteit van de applicaties kunt blijven borgen en rapporteren"
+    ],
+    "otherProducts": "Sentry log is ook in verkenning",
+    "typesOfTelemetry": [
+      "Logging",
+      "Metrics",
+      "Traces"
+    ],
+    "observabilityDimensions": [
+      "Performance",
+      "ExceptionsErrors"
+    ],
+    "automaticProcessing": [
+      "Automatische creatie van tickets/incidenten"
+    ],
+    "facets": [
+      "Best practices / Standaard aanpak",
+      "Standaarden/ Richtlijnen (en QA controls)"
+    ],
+    "applicable": [
+      "Testen / Testen in Productie",
+      "Healthchecks / HealthProbes"
+    ],
+    "pastCurrentFutureObservabilityProducts": [
+      {
+        "product": "NetMonitor",
+        "time": "Vroeger"
+      },
+      {
+        "product": "CloudWatch Pro",
+        "time": "Nu"
+      },
+      {
+        "product": "VisualMetrics",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "InsightMonitor",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "MetricVision",
+        "time": "In Verkenning"
+      },
+      {
+        "product": "DataObserver",
+        "time": "In Verkenning"
+      }
+    ]
+  }
+]
